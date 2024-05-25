@@ -80,3 +80,12 @@ article {
   background-color: #ee1630;
   width: 170px;
 }
+
+.add-button{
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #34495e;
+  color: #fff;
+  
+}
