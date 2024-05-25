@@ -37,7 +37,7 @@ const Todo = ({ todo }) => {
                 style={{ display: editing ? 'inline' : 'none' }}
                 onSubmit={onFormSubmit}
             >
-               <input type="checkbox"  id={todo._id} name={todo._id}  onClick={() => dispatch(toggleTodo(todo._id))} />
+               <input type="checkbox" className="check" id={todo._id} name={todo._id}  onClick={() => dispatch(toggleTodo(todo._id))} />
                 <input
                     type="text"
                     value={text}
